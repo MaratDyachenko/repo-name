@@ -25,7 +25,7 @@
     background-position: center center;
     background-size: cover;
     position: relative;
-    padding: 30px 0;
+    padding: 30px 0 140px;
 }
 
 .header-wrapper {
@@ -74,8 +74,7 @@
 }
 
 .title {
-    padding-top: 74px;
-    padding-bottom: 142px;
+    margin-top: 74px;
     margin-left: auto;
     margin-right: auto;
     width: 680px;
@@ -85,6 +84,258 @@
     line-height: 1.66;
     font-size: 45px;
 }
+
+.trends {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: OpenSans;
+    margin-top: 62px;
+}
+
+.trends-title::after {
+    content:"";
+    display: block;
+    width: 66px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 29px;
+    background-color: #e5d8b5;
+}
+
+.trends-posts {
+    display: flex;
+    margin-top: 30px;
+}
+
+.trends-post-first {
+    background-image: url("../images/trend1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 348px;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trends-post-first-box {
+    border: 2px #b59f5b solid;
+    margin: 0 25px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 146px;
+}
+
+.trends-post-first-box-tags {
+    margin-left: 36px;
+    margin-bottom: 16px;
+}
+
+.trends-post-first-box-title {
+    margin-left: 36px;
+    margin-bottom: 40px;
+}
+
+.trends-post-first-box-tags-list {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+.trends-post-first-box-tags-category {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b59f5b;
+    font-weight: bold;
+}
+
+.trends-post-first-box-title {
+    text-align: left;
+}
+
+.trends-post-first-box-title-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.trends-post-second {
+    background-image: url("../images/trend2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 348px;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trends-post-second-box {
+    border: 2px #b59f5b solid;
+    margin: 0 25px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 166px;
+}
+
+.trends-post-second-box-tags {
+    margin-left: 36px;
+    margin-bottom: 16px;
+}
+
+.trends-post-second-box-title {
+    margin-left: 36px;
+    margin-bottom: 40px;
+}
+
+.trends-post-second-box-tags-list {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+.trends-post-second-box-tags-category {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b59f5b;
+    font-weight: bold;
+}
+
+.trends-post-second-box-title {
+    text-align: left;
+}
+
+.trends-post-second-box-title-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.trends-post-third {
+    background-image: url("../images/trend3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 348px;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trends-post-third-box {
+    border: 2px #b59f5b solid;
+    margin: 0 25px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 146px;
+}
+
+.trends-post-third-box-tags {
+    margin-left: 36px;
+    margin-bottom: 16px;
+}
+
+.trends-post-third-box-title {
+    margin-left: 36px;
+    margin-bottom: 40px;
+}
+
+.trends-post-third-box-tags-list {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+.trends-post-third-box-tags-category {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b59f5b;
+    font-weight: bold;
+}
+
+.trends-post-third-box-title {
+    text-align: left;
+}
+
+.trends-post-third-box-title-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.trends-post-fourth {
+    background-image: url("../images/trend4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 348px;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trends-post-fourth-box {
+    border: 2px #b59f5b solid;
+    margin: 0 25px 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 146px;
+}
+
+.trends-post-fourth-box-tags {
+    margin-left: 36px;
+    margin-bottom: 16px;
+}
+
+.trends-post-fourth-box-title {
+    margin-left: 36px;
+    margin-bottom: 40px;
+}
+
+.trends-post-fourth-box-tags-list {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+.trends-post-fourth-box-tags-category {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b59f5b;
+    font-weight: bold;
+}
+
+.trends-post-fourth-box-title {
+    text-align: left;
+}
+
+.trends-post-fourth-box-title-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .body {
     font-family: OpenSans, sans-serif;
     display: flex;
@@ -95,61 +346,16 @@
     width: 1200px;
 }
 
-.trends {
-    margin-top: 30px;
-    font-family: OpenSans, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: black;
-}
-
-.trends-header {
-    margin-bottom: 20px;
-}
-
-.current-trends {
-    display: flex;
-    justify-content: space-between;
-}
-
-.current-trends-post-pic {
-    background-image: url("../images/trend1.jpg");
-    background-size: 100%;
-}
-
-.current-trends-post {
-    width: auto;
-    height: auto;
-}
-
-.current-trends-title-garden {
-
-}
-
-.current-trends-title-cheese {
-    background-image: url("../images/trend2.jpg");
-}
-
-.current-trends-title-garden-mountain {
-    background-image: url("../images/trend3.jpg");
-}
-
-.current-trends-title-vitamin {
-    background-image: url("../images/trend4.jpg");
-}
-
 .main {
     width: 770px;
     display: flex;
     justify-content: space-between;
     margin-right: 130px;
-    margin-left: auto;
     flex-wrap: wrap;
 }
 
 .post {
     display: flex;
-    width: 764px;
     justify-content: space-between;
 }
 
@@ -163,17 +369,20 @@
 }
 
 .post-content {
-    width: 350px;
-}
+    margin-left: 32px;}
 
 .post-content-tags {
-    padding-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 .post-content-tags-list {
     display: inline;
     text-transform: uppercase;
     margin-right: 14px;
+}
+
+.post-content-tags-list:last-child {
+    margin-right: 0;
 }
 
 .post-content-tags-category {
@@ -184,7 +393,7 @@
 }
 
 .post-content-title {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .post-content-title-link {
@@ -207,7 +416,7 @@
 }
 
 .post-content-text {
-    padding-top: 38px;
+    margin-top: 38px;
     line-height: 1.46;
     font-size: 15px;
     color: black;
@@ -220,10 +429,6 @@
 }
 
 .aside {
-    width: 270px;
-}
-
-.new-posts {
     width: 270px;
 }
 
@@ -247,7 +452,6 @@
 
 .new-posts-aside {
     display: flex;
-    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -265,13 +469,12 @@
 .time-post-aside {
     color: #989898;
     font-size: 12px;
-    margin-right: 8px;
     display: block;
 }
 
 .new-posts-aside-content {
-    width: 181px;
     height: auto;
+    margin-left: 22px;
 }
 
 .new-posts-aside-header {
@@ -279,6 +482,14 @@
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.27;
+}
+
+.new-posts-aside-header-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .search {
@@ -374,7 +585,6 @@
 .tags-list {
     display: flex;
     flex-wrap: wrap;
-    width: 270px;
 }
 
 .tags-list-item {
@@ -440,11 +650,256 @@
     color: #af9a63;
 }
 
+.products {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: OpenSans;
+    margin-top: 62px;
+}
+
+.products-header::after {
+    content:"";
+    display: block;
+    width: 66px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 29px;
+    background-color: #e5d8b5;
+}
+
+.products-posts {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.product-post-first {
+    background-image: url("../images/shop-item-desk1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 204px;
+    width: 300px;
+    margin-right: 113px;
+}
+
+.product-post-second {
+    background-image: url("../images/shop-item-desk2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 204px;
+    width: 300px;
+    margin-right: 113px;
+}
+
+.product-post-third {
+    background-image: url("../images/shop-item-desk3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 204px;
+    width: 300px;
+}
+
+.products-posts-board {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 32px;
+}
+
+.products-posts-board-first {
+    border: 2px #b59f5b solid;
+    height: 267px;
+    width: 347px;
+    margin-right: 66px;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.products-posts-board-first-title {
+    margin-top: 56px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.products-posts-board-first-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.products-posts-board-first-text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.46;
+    color: black;
+    text-transform: none;
+}
+
+.pillow-creation-video {
+    color: #af9a63;
+    text-decoration: none;
+}
+
+.product-first-purchase {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    align-items: center;
+}
+
+.product-first-total-price {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.product-first-discount-price {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.button-to-shop {
+    width: 140px;
+    height: 48px;
+    background-color: #b69f5b;
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.products-posts-board-second {
+    border: 2px #b59f5b solid;
+    height: 267px;
+    width: 347px;
+    margin-right: 66px;
+}
+
+.products-posts-board-second-title {
+    margin-top: 56px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.products-posts-board-second-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.products-posts-board-second-text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 24px;
+    line-height: 1.46;
+    color: black;
+    text-transform: none;
+}
+
+.spring-posts {
+    color: #af9a63;
+    text-decoration: none;
+}
+
+.product-second-purchase {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    align-items: center;
+}
+
+.product-second-total-price {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.products-posts-board-third {
+    border: 2px #b59f5b solid;
+    height: 267px;
+    width: 347px;
+}
+
+.products-posts-board-third-title {
+    margin-top: 56px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.products-posts-board-third-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.products-posts-board-third-text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 24px;
+    line-height: 1.46;
+    color: black;
+    text-transform: none;
+}
+
+.board-handmade {
+    color: #af9a63;
+    text-decoration: none;
+}
+
+.product-third-purchase {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    align-items: center;
+}
+
+.product-third-total-price {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.product-third-discount-price {
+    text-align: left;
+    margin-left: 20px;
+}
+
 .footer {
-    width: 1145px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 68px;
+    padding-bottom: 43px;
     font-family: OpenSans, sans-serif;
 }
 
@@ -457,9 +912,6 @@
     padding-bottom: 30px;
 }
 
-.social-item {
-
-}
 .socials-link {
     width: 24px;
     height: 24px;
@@ -469,7 +921,6 @@
     display: block;
     width: 20px;
     height: 20px;
-    padding-right: 50px;
 }
 
 .socials-link-twitter {
@@ -493,10 +944,8 @@
 }
 
 .copyright {
-    margin-right: auto;
-    margin-left: 480px;
     margin-top: 74px;
-    margin-bottom: 40px;
+    text-align: center;
 }
 
 .copyright-link {
