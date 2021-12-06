@@ -112,55 +112,68 @@
     margin-top: 30px;
 }
 
-.trends-post-first {
-    background-image: url("../images/trend1.jpg");
+.trends-post-common-style {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
-    height: 348px;
+    min-height: 348px;
     width: 25%;
     display: flex;
     align-items: flex-end;
 }
 
-.trends-post-first-box {
+.trends-post-first {
+    background-image: url("../images/trend1.jpg");
+}
+
+.trends-post-common-style::after {
+    content:"";
+    position: absolute;
+    background-color: black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.trends-post-box {
     border: 2px #b59f5b solid;
     margin: 0 25px 18px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
-    height: 146px;
+    position: relative;
+    z-index: 1;
 }
 
-.trends-post-first-box-tags {
+.trends-post-box-tags {
     margin-left: 36px;
     margin-bottom: 16px;
+    margin-top: 40px;
 }
 
-.trends-post-first-box-title {
+.trends-post-title {
     margin-left: 36px;
     margin-bottom: 40px;
+    text-align: left;
 }
 
-.trends-post-first-box-tags-list {
+.trends-post-box-tags-list {
     display: inline;
     text-transform: uppercase;
     margin-right: 14px;
 }
 
-.trends-post-first-box-tags-category {
+.trends-post-box-tags-category {
     text-decoration: none;
     font-size: 14px;
     color: #b59f5b;
     font-weight: bold;
 }
 
-.trends-post-first-box-title {
-    text-align: left;
-}
-
-.trends-post-first-box-title-link {
+.trends-post-title-link {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -170,170 +183,14 @@
 
 .trends-post-second {
     background-image: url("../images/trend2.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 348px;
-    width: 25%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.trends-post-second-box {
-    border: 2px #b59f5b solid;
-    margin: 0 25px 18px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    height: 166px;
-}
-
-.trends-post-second-box-tags {
-    margin-left: 36px;
-    margin-bottom: 16px;
-}
-
-.trends-post-second-box-title {
-    margin-left: 36px;
-    margin-bottom: 40px;
-}
-
-.trends-post-second-box-tags-list {
-    display: inline;
-    text-transform: uppercase;
-    margin-right: 14px;
-}
-
-.trends-post-second-box-tags-category {
-    text-decoration: none;
-    font-size: 14px;
-    color: #b59f5b;
-    font-weight: bold;
-}
-
-.trends-post-second-box-title {
-    text-align: left;
-}
-
-.trends-post-second-box-title-link {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1.2;
 }
 
 .trends-post-third {
     background-image: url("../images/trend3.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 348px;
-    width: 25%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.trends-post-third-box {
-    border: 2px #b59f5b solid;
-    margin: 0 25px 18px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    height: 146px;
-}
-
-.trends-post-third-box-tags {
-    margin-left: 36px;
-    margin-bottom: 16px;
-}
-
-.trends-post-third-box-title {
-    margin-left: 36px;
-    margin-bottom: 40px;
-}
-
-.trends-post-third-box-tags-list {
-    display: inline;
-    text-transform: uppercase;
-    margin-right: 14px;
-}
-
-.trends-post-third-box-tags-category {
-    text-decoration: none;
-    font-size: 14px;
-    color: #b59f5b;
-    font-weight: bold;
-}
-
-.trends-post-third-box-title {
-    text-align: left;
-}
-
-.trends-post-third-box-title-link {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1.2;
 }
 
 .trends-post-fourth {
     background-image: url("../images/trend4.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 348px;
-    width: 25%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.trends-post-fourth-box {
-    border: 2px #b59f5b solid;
-    margin: 0 25px 18px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    height: 146px;
-}
-
-.trends-post-fourth-box-tags {
-    margin-left: 36px;
-    margin-bottom: 16px;
-}
-
-.trends-post-fourth-box-title {
-    margin-left: 36px;
-    margin-bottom: 40px;
-}
-
-.trends-post-fourth-box-tags-list {
-    display: inline;
-    text-transform: uppercase;
-    margin-right: 14px;
-}
-
-.trends-post-fourth-box-tags-category {
-    text-decoration: none;
-    font-size: 14px;
-    color: #b59f5b;
-    font-weight: bold;
-}
-
-.trends-post-fourth-box-title {
-    text-align: left;
-}
-
-.trends-post-fourth-box-title-link {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1.2;
 }
 
 .body {
@@ -348,10 +205,7 @@
 
 .main {
     width: 770px;
-    display: flex;
-    justify-content: space-between;
     margin-right: 130px;
-    flex-wrap: wrap;
 }
 
 .post {
@@ -562,12 +416,14 @@
     font-weight: bold;
     margin-top: 18px;
 }
+.tags {
+    margin-top: 56px;
+}
 
 .tags-header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    margin-top: 56px;
 }
 
 .tags-header::after {
@@ -678,62 +534,42 @@
     margin-top: 45px;
 }
 
-.product-post-first {
-    background-image: url("../images/shop-item-desk1.jpg");
+.product-post {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: relative;
     height: 204px;
     width: 300px;
-    margin-right: 113px;
+    margin: auto;
+}
+
+.product-post-first {
+    background-image: url("../images/shop-item-desk1.jpg");
 }
 
 .product-post-second {
     background-image: url("../images/shop-item-desk2.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 204px;
-    width: 300px;
-    margin-right: 113px;
 }
 
 .product-post-third {
     background-image: url("../images/shop-item-desk3.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    height: 204px;
-    width: 300px;
 }
 
-.products-posts-board {
-    display: flex;
-    justify-content: center;
+.product-post-board {
+    border: 2px #b59f5b solid;
+    height: 267px;
+    width: 347px;
     position: relative;
     bottom: 32px;
 }
 
-.products-posts-board-first {
-    border: 2px #b59f5b solid;
-    height: 267px;
-    width: 347px;
-    margin-right: 66px;
-    /*display: flex;*/
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-
-.products-posts-board-first-title {
+.product-post-title {
     margin-top: 56px;
     margin-left: 20px;
     text-align: left;
 }
 
-.products-posts-board-first-link {
+.product-post-title-link {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -741,7 +577,7 @@
     line-height: 1.2;
 }
 
-.products-posts-board-first-text {
+.product-post-text {
     font-size: 15px;
     font-weight: 400;
     text-align: left;
@@ -752,26 +588,26 @@
     text-transform: none;
 }
 
-.pillow-creation-video {
+.link-to-post-details {
     color: #af9a63;
     text-decoration: none;
 }
 
-.product-first-purchase {
+.product-purchase {
     display: flex;
     justify-content: space-between;
     margin-top: 27px;
     align-items: center;
 }
 
-.product-first-total-price {
+.product-total-price {
     text-align: left;
     margin-left: 20px;
     font-size: 14px;
     text-decoration: line-through;
 }
 
-.product-first-discount-price {
+.product-discount-price {
     text-align: left;
     margin-left: 20px;
 }
@@ -785,113 +621,6 @@
     color: white;
     font-weight: bold;
     margin-right: 30px;
-}
-
-.products-posts-board-second {
-    border: 2px #b59f5b solid;
-    height: 267px;
-    width: 347px;
-    margin-right: 66px;
-}
-
-.products-posts-board-second-title {
-    margin-top: 56px;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.products-posts-board-second-link {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1.2;
-}
-
-.products-posts-board-second-text {
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 24px;
-    line-height: 1.46;
-    color: black;
-    text-transform: none;
-}
-
-.spring-posts {
-    color: #af9a63;
-    text-decoration: none;
-}
-
-.product-second-purchase {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 27px;
-    align-items: center;
-}
-
-.product-second-total-price {
-    text-align: left;
-    margin-left: 20px;
-    font-size: 14px;
-}
-
-.products-posts-board-third {
-    border: 2px #b59f5b solid;
-    height: 267px;
-    width: 347px;
-}
-
-.products-posts-board-third-title {
-    margin-top: 56px;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.products-posts-board-third-link {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1.2;
-}
-
-.products-posts-board-third-text {
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 24px;
-    line-height: 1.46;
-    color: black;
-    text-transform: none;
-}
-
-.board-handmade {
-    color: #af9a63;
-    text-decoration: none;
-}
-
-.product-third-purchase {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 27px;
-    align-items: center;
-}
-
-.product-third-total-price {
-    text-align: left;
-    margin-left: 20px;
-    font-size: 14px;
-    text-decoration: line-through;
-}
-
-.product-third-discount-price {
-    text-align: left;
-    margin-left: 20px;
 }
 
 .footer {
@@ -910,6 +639,14 @@
     background-color: #f4f7f6;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.socials-item {
+    margin-right: 30px;
+}
+
+.socials-item:last-child {
+    margin-right: 0;
 }
 
 .socials-link {
