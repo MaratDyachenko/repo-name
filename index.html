@@ -18,7 +18,10 @@
                     </a>
                 </div>
                 <nav class="menu">
-                    <ul>
+                    <button class="menu__button">
+                        <span class="menu__button-label">открыть меню</span>
+                    </button>
+                    <ul class="menu-nav">
                         <li class="menu-nav-list"><a class="menu-nav-category" href="#0">главная</a></li>
                         <li class="menu-nav-list"><a class="menu-nav-category" href="#0">посты</a></li>
                         <li class="menu-nav-list"><a class="menu-nav-category" href="#0">статьи</a></li>
@@ -90,7 +93,7 @@
     <div class="body">
         <main class="main">
             <article class="post">
-                <div>
+                <div class="post-pic">
                     <img class="post-pic" src="images/last-post1.jpg">
                 </div>
                 <div class="post-content">
@@ -111,7 +114,7 @@
                 </div>
             </article>
             <article class="post">
-                <div>
+                <div class="post-pic">
                     <img class="post-pic" src="images/last-post2.jpg" alt="yoga-lady">
                 </div>
                 <div class="post-content">
@@ -132,7 +135,7 @@
                 </div>
             </article>
             <article class="post">
-                <div>
+                <div class="post-pic">
                     <img class="post-pic" src="images/last-post3.jpg" alt="lady-in-the-crowd">
                 </div>
                 <div class="post-content">
@@ -153,7 +156,7 @@
                 </div>
             </article>
             <article class="post">
-                <div>
+                <div class="post-pic">
                     <img class="post-pic" src="images/last-post4.jpg" alt="breakfast">
                 </div>
                 <div class="post-content">
@@ -174,7 +177,7 @@
                 </div>
             </article>
             <article class="post">
-                <div>
+                <div class="post-pic">
                     <img class="post-pic" src="images/last-post5.jpg" alt="pillow">
                 </div>
                 <div class="post-content">
@@ -441,14 +444,17 @@
     </div>
 </footer>
 
-<div class="popup">
+<div class="popup _hidden">
     <div class="popup-wrapper">
         <h4 class="popup-title">ваш фидбек</h4>
         <form class="feedback-site-attendance">
             <p class="feedback-site-attendance-question">Как часто вы заходите на сайт?</p>
-            <label class="feedback-attendance-frequency">
-                <input class="feedback-attendance-frequency-input" type="text" placeholder="Почти каждый день" required>
-            </label>
+            <select class="feedback-attendance-frequency">
+                <option class="feedback-attendance-frequency-input">Почти каждый день</option>
+                <option class="feedback-attendance-frequency-input">Раз в несколько дней</option>
+                <option class="feedback-attendance-frequency-input">Раз в несколько недель</option>
+                <option class="feedback-attendance-frequency-input">Несколько раз в год</option>
+            </select>
         </form>
         <form class="feedback-mailing-form">
             <p class="feedback-mailing-question">Вы подписаны на e-mail рассылку?</p>
@@ -467,5 +473,7 @@
         </form>
         <button class="submit-button">отправить</button>
     </div>
+    <button class="popup__close" type="button">Закрыть окно</button>
 </div>
+
 </html>
