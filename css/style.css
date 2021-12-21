@@ -9,8 +9,13 @@
         display: none;
     }
 
+    .box-mobile {
+        display: none;
+    }
+
     .title {
         font-size: 45px;
+        margin: 74px auto 0;        
     }
 
     .trends-post-common-style {
@@ -60,8 +65,13 @@
         width: calc(50% - 3px);
     }
 
+    .box-mobile {
+        display: none;
+    }
+
     .title {
         font-size: 40px;
+        margin: 74px auto 0;
     }
 
     .body {
@@ -119,6 +129,10 @@
 }
 
 @media (max-width: 640px) {
+    .box-mobile {
+        margin: 180px 30px 0;
+    }
+
     .menu-nav {
         display: none;
     }
@@ -138,8 +152,13 @@
         background-color: #eeeeee;
     }
 
+    .logo {
+        visibility: hidden;
+    }
+
     .title {
         font-size: 26px;
+        margin: 40px auto 0;
     }
 
     .body {
@@ -256,7 +275,6 @@
 }
 
 .title {
-    margin: 74px auto 0;
     max-width: 680px;
     color: white;
     text-transform: uppercase;
@@ -808,9 +826,6 @@
     text-transform: none;
 }
 
-.product-post-text:hover {
-    font-weight: bold;
-}
 
 .link-to-post-details {
     color: #af9a63;
@@ -917,13 +932,20 @@
 }
 
 .popup {
-    height: 100vh;
-    width: 100vw;
-    background: rgba(0, 0, 0, 0.7);
-    /*display: none;*/
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
     position: fixed;
-    left: 1px;
-    top: 1px;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+
+.popup-container {
+    width: 100%;
+    margin: 150px auto;
+
 }
 
 .popup-wrapper {
@@ -931,9 +953,8 @@
     margin: auto;
     padding: 53px 30px;
     font-family: OpenSans, sans-serif;
-    position: fixed;
-    top: 55px;
-    left: 600px;
+    justify-content: center;
+    top: 30px;
     background-color: white;
 }
 
@@ -970,6 +991,8 @@
     background-repeat: no-repeat;
     background-position: center right 10px;
     background-size: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .feedback-mailing-question {
@@ -1037,5 +1060,9 @@
     background-image: url("../svg/form-x.svg");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 40px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 390px;
+    margin: 0 auto 7px;
 }
+
