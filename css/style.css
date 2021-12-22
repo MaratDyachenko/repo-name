@@ -193,6 +193,15 @@
     .button-search {
         width: 60px;
     }
+
+    .products-post {
+        max-width: 360px;
+        margin: 30px auto 0;
+    }
+
+    .products-post:last-child {
+        margin-bottom: 50px;
+    }  
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
@@ -742,7 +751,6 @@
 .products-posts {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 45px;
     max-width: 1200px;
     justify-content: space-between;
 }
@@ -955,6 +963,18 @@
     justify-content: center;
     top: 30px;
     background-color: white;
+    position: relative;
+}
+
+.popup__close {
+    background-image: url("../svg/form-x.svg");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 18.5em;
+    position: absolute;
+    top: -2em;
+    right: -17em;
 }
 
 .popup-title {
@@ -1026,12 +1046,8 @@
     clip: 1px;
 }
 
-.feedback-mailing-form {
-    margin-bottom: 35px;
-}
-
 .feedback-textbox-question {
-    margin-bottom: 12px;
+    margin: 35px 0 12px;
 }
 
 .feedback-textbox-input {
@@ -1043,6 +1059,7 @@
     border: 0;
     margin-bottom: 35px;
     text-align: start;
+    resize: none;
 }
 
 .submit-button {
@@ -1055,13 +1072,4 @@
     font-weight: bold;
 }
 
-.popup__close {
-    background-image: url("../svg/form-x.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    text-indent: -9999px;
-    cursor: pointer;
-    width: 390px;
-    margin: 0 auto 7px;
-}
 

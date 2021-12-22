@@ -37,11 +37,7 @@
                         <img src="svg/noemi-logo.svg" alt="company logo">
                     </a>
                 </div>
-                <nav class="menu-mobile">
-                    <button class="menu__button-mobile">
-                        <span class="menu__button-label-mobile">открыть меню</span>
-                    </button>
-                </nav>
+                <nav class="menu-mobile"></nav>
             </div>            
             <h1 class="title">Блог о творчестве, спорте и образе жизни</h1>
         </div>
@@ -451,12 +447,13 @@
 <div class="popup">
 
     <div class="popup-container">
-        <div class="popup__close">
-            <button type="button">Закрыть окно</button>
-        </div>
+
         <div class="popup-wrapper">
+            <div class="popup__close">
+                <button type="button">Закрыть окно</button>
+            </div>
             <h4 class="popup-title">ваш фидбек</h4>
-            <form class="feedback-site-attendance">
+            <form>
                 <p class="feedback-site-attendance-question">Как часто вы заходите на сайт?</p>
                 <select class="feedback-attendance-frequency">
                     <option class="feedback-attendance-frequency-input">Почти каждый день</option>
@@ -464,8 +461,6 @@
                     <option class="feedback-attendance-frequency-input">Раз в несколько недель</option>
                     <option class="feedback-attendance-frequency-input">Несколько раз в год</option>
                 </select>
-            </form>
-            <form class="feedback-mailing-form">
                 <p class="feedback-mailing-question">Вы подписаны на e-mail рассылку?</p>
                 <label class="feedback-mailing-radio">
                     <input class="feedback-mailing-radio-input" name="radio-input" type="radio" checked>
@@ -475,10 +470,8 @@
                     <input class="feedback-mailing-radio-input" name="radio-input" type="radio">
                     <span class="feedback-mailing-radio-choice">Нет</span>
                 </label>
-            </form>
-            <form class="feedback-textbox">
                 <p class="feedback-textbox-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
-                <input class="feedback-textbox-input" type="text" placeholder="Может, больше рецептов?">
+                <textarea class="feedback-textbox-input" type="text" placeholder="Может, больше рецептов?" resize="none"></textarea>
             </form>
             <button class="submit-button">отправить</button>
         </div>
